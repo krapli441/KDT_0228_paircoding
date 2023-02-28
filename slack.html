@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <script>
+    const root = document.getElementById('root');
+    root.style.width = "100vw";
+    root.style.height = "100vh";
+    root.style.backgroundColor = "#ccc";
+    root.style.display = "flex";
+    root.style.flexDirection = "column";
+    root.style.justifyContent = "center";
+    root.style.alignItems = "center";
+
+    for(let i = 0; i < root.children.length; i++) {
+      root.children[i].style.width = "500px";
+      root.children[i].style.height = "150px";
+      root.children[i].style.border = "1px solid black";
+    }
+
+    root.children[root.children.length - 1].style.backgroundColor = "red";
+    root.children[root.children.length - 1].style.borderRadius =  "250px";
+  </script>
+</body>
+</html>

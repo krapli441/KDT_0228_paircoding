@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+    .screen-1 {
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      transition: background-color 0.3s ease-in;
+    }
+
+    /* 문서 제목 */
+    .screen-1>div:nth-child(1) {
+      font-size: 24px;
+      margin-bottom: 34px;
+    }
+
+    /* 문서 내용 */
+    .screen-1>div:nth-child(2){
+      display: flex;
+      text-align: start;
+      width: 295px;
+      font-weight: 400px;
+      font-size: 12px;
+    }
+
+    /* 동그라미 */
+    .rectangle {
+      margin-top: 123px;
+      width: 82px;
+      height: 82px;
+      border-radius: 41px;
+      background-color: #5A5A5A;
+    }
+
+    /*  */
+
+    .screen-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      transition: background-color 0.3s ease-in;
+
+    }
+
+    /* 문서 제목 */
+    .screen-2>div:nth-child(1) {
+      font-size: 24px;
+      margin-bottom: 34px;
+    }
+
+    /* 문서 내용 */
+    .screen-2>div:nth-child(2){
+      display: flex;
+      text-align: start;
+      width: 295px;
+      font-weight: 400px;
+      font-size: 12px;
+    }
+
+    /* 동그라미 */
+    .rectangle {
+      margin-top: 123px;
+      width: 82px;
+      height: 82px;
+      border-radius: 41px;
+      background-color: #5A5A5A;
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <div id="container">
+    <div class="screen-1">
+      <div>Lorem Ipsum</div>
+      <div></div>
+      <div class="rectangle"></div>
+    </div>
+    <div class="screen-2">
+      <div>Lorem Ipsum</div>
+      <div></div>
+      <div class="rectangle"></div>
+    </div>
+  </div>
+
+
+  <script src="./body.js"></script>
+  <script src="./script.js"></script>
+  <script src="./colorchange.js"></script>
+</body>
+
+</html>
