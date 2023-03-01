@@ -20,6 +20,8 @@ let counterObj = Object.assign(colorChangerOne,colorChangerTwo);
 // console.dir(angle);
 
 
+
+
 colorChangerOne.addEventListener("click", function () {
   counterOne = counterOne + 1;
   if (counterOne >= 1) {
